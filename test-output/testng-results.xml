@@ -2,20 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8801" started-at="2021-04-26T15:45:10 IST" finished-at="2021-04-26T15:45:19 IST">
+  <suite name="Default suite" duration-ms="3660" started-at="2021-04-27T14:41:31 IST" finished-at="2021-04-27T14:41:34 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8801" started-at="2021-04-26T15:45:10 IST" finished-at="2021-04-26T15:45:19 IST">
-      <class name="testScripts.LoginMethods">
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:testScripts.LoginMethods@3a883ce7]" name="openApplication" is-config="true" duration-ms="6312" started-at="2021-04-26T15:45:10 IST" finished-at="2021-04-26T15:45:16 IST">
+    <test name="Default test" duration-ms="3660" started-at="2021-04-27T14:41:31 IST" finished-at="2021-04-27T14:41:34 IST">
+      <class name="getRequest.POST_requestMethod">
+        <test-method status="PASS" signature="postreqest()[pri:0, instance:getRequest.POST_requestMethod@5f282abb]" name="postreqest" duration-ms="3621" started-at="2021-04-27T14:41:31 IST" finished-at="2021-04-27T14:41:34 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="loginofGitHub()[pri:0, instance:testScripts.LoginMethods@3a883ce7]" name="loginofGitHub" duration-ms="2457" started-at="2021-04-26T15:45:16 IST" finished-at="2021-04-26T15:45:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginofGitHub -->
-      </class> <!-- testScripts.LoginMethods -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- postreqest -->
+      </class> <!-- getRequest.POST_requestMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

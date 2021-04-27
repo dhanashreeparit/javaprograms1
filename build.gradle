@@ -26,4 +26,12 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    
+    // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '4.3.3'
+    implementation 'org.json:json:20171018'
+implementation 'com.github.cliftonlabs:json-simple:2.2.0'
+implementation 'io.rest-assured:rest-assured:3.3.0'
+implementation 'io.rest-assured:json-path:3.3.0'
+compile ('com.jayway.restassured:rest-assured:1.6')
 }
